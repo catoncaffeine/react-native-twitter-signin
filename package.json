@@ -19,9 +19,12 @@
   ],
   "license": "MIT",
   "name": "react-native-twitter-signin",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/catoncaffeine/react-native-twitter-signin.git"
+    "url": "git@github.com:catoncaffeine/react-native-twitter-signin.git"
   },
   "version": "1.1.0"
 }
