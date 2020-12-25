@@ -17,7 +17,7 @@
     "authentication"
   ],
   "license": "MIT",
-  "name": "catoncaffeine/react-native-twitter-signin",
+  "name": "@catoncaffeine/react-native-twitter-signin",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
