@@ -1,7 +1,6 @@
 {
   "dependencies": {},
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "deprecated": false,
   "description": "Social Signin with Twitter",
   "engines": {
@@ -18,9 +17,9 @@
     "authentication"
   ],
   "license": "MIT",
-  "name": "react-native-twitter-signin",
+  "name": "catoncaffeine/react-native-twitter-signin",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
