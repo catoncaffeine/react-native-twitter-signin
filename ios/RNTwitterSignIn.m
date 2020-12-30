@@ -26,6 +26,7 @@ RCT_EXPORT_METHOD(init: (NSString *)consumerKey consumerSecret:(NSString *)consu
                   rejecter:(RCTPromiseRejectBlock)reject)
 {
     [[Twitter sharedInstance] startWithConsumerKey:consumerKey consumerSecret:consumerSecret];
+    authNotResolved = true;
 }
 RCT_EXPORT_METHOD(logIn: (RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject)
@@ -57,5 +58,6 @@ RCT_EXPORT_METHOD(logOut)
     TWTRSessionStore *store = [[Twitter sharedInstance] sessionStore];
     NSString *userID = store.session.userID;
     [store logOutUserID:userID];
+    authNotResolved = true;
 }
 @end
